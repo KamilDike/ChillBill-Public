@@ -1,0 +1,2 @@
+gcloud builds submit --tag gcr.io/chillbill-297814/chillbill
+gcloud run deploy --image gcr.io/chillbill-297814/chillbill --platform managed --memory 512M
